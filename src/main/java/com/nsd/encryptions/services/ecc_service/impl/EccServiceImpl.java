@@ -43,7 +43,7 @@ public class EccServiceImpl implements EccService {
 		try {
 			String encryptedData = EccUtil.eccEncrypt(data, base64PublicKey);
 			map.put("data", "ECC Encryption Done");
-			map.put("base64PublicKey", encryptedData);
+			map.put("encryptedData", encryptedData);
 			map.put("success", true);
 		} catch (Exception e) {
 			map.put("data", e.getMessage());
