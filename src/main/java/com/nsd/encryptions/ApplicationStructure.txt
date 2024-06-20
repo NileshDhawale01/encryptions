@@ -1,0 +1,40 @@
+Encryption Application
+	-- This Application gives Idea about various type of algorithms.
+														-- Nilesh Dhawale
+	
+	Application Structure
+	
+				+ Application
+					-- Main Package
+					|	|
+					|	--> Api Package
+					|	|	|
+					|	|	--> Algorithm Api Package
+					|	|		|
+					|	|		--> Api Classes
+					|	|
+					|	--> Service Package
+					|	|	|
+					|	|	--> Algorithm Service Packages
+					|	|		|	|
+					|	|		|	--> Interfaces of Algorithm
+					|	|		|
+					|	|		--> Algorithm Service Impl Packages
+					|	|			|
+					|	|			--> Service Classes
+					|	|			
+					|	--> Utils Package
+					|	|	|
+					|	|	--> Algorithm Util Packages
+					|	|		|
+					|	|		--> Algorithm Util Classes
+					|	|
+					|	--> Stores Packages
+					|	|	|
+					|	|	--> Algorithm Store Packages
+					|	|		|
+					|	|		--> Algorithm Store Classes
+					
+																											...End.
+						
+					
